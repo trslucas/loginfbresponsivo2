@@ -1,0 +1,209 @@
+@charset "UTF-8";
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding:0;
+    background: #f0f2f5;
+}
+
+.container{
+    display: flex;
+    padding: 120px;
+    justify-content: space-evenly;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 75px;
+}
+.homelogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homelogo h1{
+    color: #1877f2;
+    font-size: 60px;
+    margin: 0;   
+    padding: 0;
+    font-weight: 600;
+}
+
+.homelogo h2{
+    font-size: 28px;
+    margin: 0;   
+    padding: 0;
+    font-weight: 400;
+    color: #1c1e21;
+}
+.login{
+    padding-top: 15px;
+    margin-right: 80px;
+    display: flex;
+    text-align: center;
+    width: 375px;
+    height: 320px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #7d7e8075 ;
+}
+
+.logintexto {
+    font-size: 20px;
+    font-weight:normal;
+    color: #1c1e21;
+    text-align: center;
+
+}
+
+input{
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+
+.btnlogin{
+    width: 330px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.borda{
+    border: 0.35px solid #dadde1;
+    width: 330px;
+    margin: auto;
+}
+
+a{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #0f4791;
+}
+
+.btnaccount{
+    width: 170px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.info{
+    font-size: 14px;
+    color: #1c1e21;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btnlogin:hover{
+    background-color: #1265d3;
+}
+
+.btnaccount:hover{
+    background-color: #339120
+}
+
+input:focus { 
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0px 0px 3px #719ECE;
+}
+
+.marca{
+    color: #1c1e21;
+}
+
+.marca:hover{
+    color:#1c1e21;
+    text-decoration: underline;
+}
+
+
+
+@media (max-width:600px){
+    /*aqui fizemos os textos de h1 e h2 ficarem responsivos*/
+
+body{   
+        background: #f0f2f5;
+}
+.container1{
+    padding:20px;
+    
+}
+.homelogo h1{
+        color: #1877f2;
+        font-size: 22px;
+        font-weight: 600;
+        margin:auto;
+}
+    
+.homelogo h2{
+        display: none;
+    }
+
+.container{
+        flex-direction: column;
+        padding:5px;
+        margin-left:20px;
+}
+
+.login{
+    width: 450px;
+    height: 295px;
+
+}
+
+input{
+    margin-right:85px;
+    width: 400px;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+
+.btnlogin{
+ width: 400px;
+ margin-right: 90px;
+ padding: 4px;
+}
+.btnaccount{
+    width: 185px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    margin-right: 95px;
+    font-size: 15px;
+}
+.esqueceusenha{
+    margin-right: 95px;
+}
+.borda{
+    width: 415px;
+    margin-right: 95px;
+    margin-left: 20px;
+}
+.info{
+    font-size: 13px;
+    margin-right: 65px;
+}
+}
